@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="register">Register</string>
+    <string name="register_and_be_a_part_of_popcorn">Register and be a part of popcorn...</string>
+    <string name="retype_password">Retype-password</string>
+    <string name="back">Back</string>
+</resources>
