@@ -103,18 +103,5 @@ class Favorite : AppCompatActivity() {
         startActivity(i)
     }
 
-    //pass detail
-    private fun showMovieDetails(movie: Movie) {
-        val intent = Intent(this, movie_detail::class.java)
-        intent.putExtra(MOVIE_ID, movie.id)
-        intent.putExtra(MOVIE_BACKDROP, movie.backdropPath)
-        intent.putExtra(MOVIE_POSTER, movie.posterPath)
-        intent.putExtra(MOVIE_TITLE, movie.title)
-        intent.putExtra(MOVIE_RATING, movie.rating)
-        intent.putExtra(MOVIE_RELEASE_DATE, movie.releaseDate)
-        intent.putExtra(MOVIE_OVERVIEW, movie.overview)
 
-        Log.d("CHE",movie.toString())
-        startActivity(intent)
-    }
 }
